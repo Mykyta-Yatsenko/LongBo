@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mykyta's Profile</title>
+    <link rel="stylesheet" href="../profile/style.css" />
+    <script src="../profile/script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <section id="home">
+      <div class="header">
+        <div class="logo">
+          <a class="name">Mykyta Yatsenko</a>
+          <div>
+            <img class="logor" src="../profile/img/gm.png" />
+            <a>fullstackdeveloper@gmail.com</a>
+          </div>
+          <div>
+            <img class="logor" src="../profile/img/ph.png" />
+            <a>+13456767598</a>
+          </div>
+        </div>
+        <div class="headbutton">
+          <h6><a class="topmn" href="#abm">About Me</a></h6>
+          <h6><a class="topmn" href="#ski">Skills</a></h6>
+          <h6><a class="topmn" href="#pro">Projects</a></h6>
+          <h6><a class="topmn" href="#rec">Recommendations</a></h6>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <div class="about" id="abm">
+      <img class="photo" src="../profile/img/pic.png" />
+      <div class="aboutme">
+        <a class="hi">Hi, I'm Mykyta Yatsenko.</a>
+        <p>
+          I have experience working as a freelancer creating static web pages
+          from the ground up using html, css and Javascript that were hosted
+          with Github pages. Being a freelancer taught me how to communicate
+          with clients and get the work done in time and to their needs. This
+          also taught me how to solve problems on my own.
+        </p>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="ski">
+      <div class="skil">
+        <p>Skills</p>
+      </div>
+      <div style="clear: both"></div>
+      <div class="skills">
+        <div class="sk">
+          <img src="../profile/img/html.png" />
+          <a>HTML</a>
+          <p>3 years experiences</p>
+        </div>
+        <div class="sk">
+          <img src="../profile/img/js.png" />
+          <a>JavaScript</a>
+          <p>2 years experiences</p>
+        </div>
+        <div class="sk">
+          <img src="../profile/img/mg.png" />
+          <a>MongoBD</a>
+          <p>2 years experiences</p>
+        </div>
+        <div class="sk">
+          <img src="../profile/img/react.png" />
+          <a>React</a>
+          <p>4 years experiences</p>
+        </div>
+        <div class="sk">
+          <img src="../profile/img/nd.png" />
+          <a>Node.js</a>
+          <p>3 years experiences</p>
+        </div>
+        <div class="sk">
+          <img src="../profile/img/cn.png" />
+          <a>Cloud native</a>
+          <p>2 years experiences</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="pro">
+      <div class="pj">
+        <p>Projects</p>
+      </div>
+      <div class="prd">
+        <div>
+          <p class="prdt">Chatbot</p>
+          <p class="prdd">
+            - Developed a secure website integrated with chatbot for an
+            automobile client using HTML, CSS, Javascript and IBM Watson
+            Assistant
+          </p>
+          <hr style="margin-left: 100px; width: auto" />
+        </div>
+        <div>
+          <p class="prdt">Sentiment Analyzer</p>
+          <p class="prdd">
+            - Developed and deployed a sentiment analyzer for the box review,
+            section of and eCommerce platform using IBM NLU
+          </p>
+          <hr style="margin-left: 100px; width: auto" />
+        </div>
+        <div>
+          <p class="prdt">Fashion Website</p>
+          <p class="prdd">
+            - Created a styled multi-page website for a new player in the
+            fashion industry and integrated with a shopping cart, using strip
+            for payment gateway
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recommendations -->
+    <div id="rec">
+      <div class="recm">
+        <p>Recommendations</p>
+      </div>
+      <div class="rct">
+        <p class="rctx">
+          " Mykyta is a very quick learner and quickly grasps key concepts of
+          Web development. He got a great attitude & he is an excellent team
+          player. He has a curious mind and asks the right question. He takes
+          initiative within a team and has potentials to lead the team. "
+        </p>
+        <p class="rctx">
+          " Working with Luka has been a fantastic experience. He's highly
+          knowledgeable and consistently goes the extra mile to ensure
+          everything is done perfectly. I'd gladly collaborate with her on
+          future projects. "
+        </p>
+        <p class="rctx">
+          " I worked with Luka during the early stages of our venture, which
+          required web development. He's a dedicated professional with deep
+          knowledge in the field and will be a valuable asset to any
+          organization! "
+        </p>
+        <p class="rctx">
+          " Mykyta is a very quick learner and quickly grasps key concepts of
+          Web development. He got a great attitude & he is an excellent team
+          player. He has a curious mind and asks the right question. He takes
+          initiative within a team and has potentials to lead the team. "
+        </p>
+      </div>
+    </div>
+
+    <!-- Recommendation Form -->
+    <div>
+      <p class="lr">Leave a Recommendation</p>
+      <div class="lri">
+        <input
+          placeholder="Name (Optional)"
+          class="lri1"
+          type="chractor"
+        /><br />
+        <textarea placeholder="Message" class="lri2" type="text"></textarea>
+      </div>
+      <div class="lrs">
+        <button class="lrsm" onclick="addRecommendation()">Submit</button>
+      </div>
+    </div>
+
+    <!--
+    <div class="popup" id="popup" class="flex_center"></div>
+      <img src="html_finalprojimages/checkmark--outline.svg" />
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+    -->
+
+    <div id="go-home" class="iconbutton">
+      <a href="#home">
+        <img class="home" src="../profile/img/home.png" />
+      </a>
+    </div>
+  </body>
+</html>

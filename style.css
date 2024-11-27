@@ -1,0 +1,220 @@
+.header {
+  background-color: rgb(94, 148, 33);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.logor {
+  width: 15px;
+  height: 15px;
+}
+
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 50px;
+}
+
+.headbutton {
+  flex-direction: row;
+  flex-flow: wrap;
+  text-align: right;
+  color: white;
+  font-family: arial;
+  font-size: 25px;
+  display: flex;
+}
+
+.topmn {
+  color: white;
+  text-decoration: none;
+}
+
+.topmn:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 60px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.photo {
+  width: 230px;
+  height: 250px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.aboutme {
+  flex-direction: row;
+  flex-flow: wrap;
+  margin: 50px 120px 50px 150px;
+}
+
+.hi {
+  font-family: Helvetica;
+  color: rgb(22, 116, 19);
+  font-size: 55px;
+}
+
+.skil {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium";
+  color: rgb(143, 26, 137);
+  margin-left: 200px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.sk {
+  border: 1px solid black;
+  display: block;
+  border-radius: 6px;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  width: 2in;
+  font-size: 20px;
+  box-shadow: 0 3px 10px gray;
+}
+
+.sk img {
+  display: grid;
+  width: 50px;
+  height: 40px;
+  margin: 30px 70px;
+}
+
+.pj {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium";
+  color: rgb(143, 26, 137);
+  margin: 200px 0 0 150px;
+}
+
+.prd {
+  margin: 0 200px 100px 200px;
+}
+
+.prdt {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium";
+}
+
+.prdd {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium";
+  margin-left: 50px;
+}
+
+.recm {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium";
+  color: rgb(143, 26, 137);
+  margin: 200px 0 0 150px;
+}
+
+.rct {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin: 0 170px 100px 170px;
+}
+
+.rctx {
+  font-style: italic;
+  text-align: left;
+  width: 20.2rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 18px;
+  height: 150px;
+}
+
+.lr {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium";
+  color: black;
+}
+
+.lri {
+  text-align: center;
+}
+
+.lri1 {
+  width: 600px;
+  margin-bottom: 20px;
+}
+.lri2 {
+  width: 600px;
+  height: 4cm;
+  margin-bottom: 50px;
+}
+.lrs {
+  text-align: center;
+}
+.lrsm {
+  font-size: 20px;
+  color: rgb(1, 150, 100);
+  border-color: rgb(87, 177, 147);
+  border-radius: 19px;
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 50px;
+}
+
+.popup {
+  width: 400px;
+  background-color: #e8bcf0;
+  border-radius: 3mm;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: fixed;
+  /* padding: 30px; */
+  visibility: hidden;
+}
+
+.iconbutton img {
+  width: 40px;
+}
+.iconbutton {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 40px;
+  right: 1cm;
+}
